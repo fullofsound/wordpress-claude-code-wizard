@@ -33,118 +33,559 @@
 
      When building a directory website, you MUST complete ALL phases in one continuous workflow:
 
-     ### Phase 1: Deep Research & Comprehensive Data Collection
-     
-     **GOAL: Create pages so information-rich that visitors never need to leave your site**
-     
-     1. **Research each individual entry exhaustively using Jina AI**
-        - Scrape the company's main website completely
-        - Find and scrape their pricing pages, feature lists, documentation
-        - Search for reviews, comparisons, alternatives
-        - Gather technical specifications, integrations, use cases
-        - Find case studies, success stories, testimonials
-        - Collect founder information, company history, funding details
-        - Get support options, contact methods, social media links
+     ### Phase 1: Deep Research & Comprehensive Competitive Analysis - Remote Piano Recording
+
+     **GOAL: Create a website so information-rich and professional that it becomes the #1 choice for remote piano recording services**
+
+     1. **Research ALL remote piano recording competitors exhaustively using Jina AI**
+
+        **Individual Session Musicians to Research:**
+        - Vintage Keys Studio (UK-based, bespoke recording)
+        - Michael Arrom Music (LA-based, major artist credits)
+        - Session pianists with film/soundtrack experience
+        - Jazz pianists offering remote recording
+        - Classical pianists with online services
+        - Multi-instrumentalists (piano + Rhodes + organ + synths)
+
+        **Platform Marketplaces to Analyze:**
+        - SoundBetter (analyze top 20 session pianists)
+        - Fiverr (analyze top sellers in piano recording category)
+        - AirGigs (session musician marketplace)
+        - Upwork (freelance pianists and composers)
+
+        **Remote Recording Studios:**
+        - Studios offering remote piano sessions
+        - Online recording studios with session musicians
+        - Virtual studio services
+
+        **For EACH competitor, scrape and extract:**
+        - Complete service packages and what's included
+        - Pricing structure (packages, hourly rates, album deals)
+        - Equipment details (piano types, mics, preamps, DAW)
+        - Recording process and workflow explanation
+        - Turnaround times (standard, rush, same-day)
+        - Revision policy (how many included, cost of additional)
+        - Audio deliverable formats (WAV specs, MIDI, stems)
+        - Portfolio examples organized by genre
+        - Client testimonials and reviews
+        - Major credits and notable projects
+        - Communication methods (email, video call, real-time sessions)
+        - Unique selling points and differentiators
+        - Website design elements that work well
+        - SEO keywords they're targeting
+        - Social proof (client count, years in business, awards)
+        - What they're MISSING or doing poorly
         - Retry any failed scrapes until you have EVERYTHING
-     
-     2. **Build massive JSON datasets for each entry**
-        Each individual page JSON should contain:
+
+     2. **Build comprehensive JSON dataset for Remote Piano Recording service**
+
+        Your master JSON should contain:
         ```json
         {
-          "basics": {
-            "name", "tagline", "description" (500+ words),
-            "founded", "headquarters", "employees", "funding"
+          "business_identity": {
+            "name": "Your Service Name",
+            "tagline": "Professional Piano Recording for Albums, Films & Soundtracks",
+            "mission_statement": "500+ words about your approach, experience, and philosophy",
+            "years_experience": "20+",
+            "specializations": ["Albums", "Films", "Soundtracks", "Singer-Songwriter", "Bands"],
+            "location": "Your location (global service available)"
           },
-          "detailed_features": [
-            {"name", "description" (100+ words), "category", "importance"}
+
+          "service_packages": [
+            {
+              "name": "Single Track Recording",
+              "price": "$150-$200",
+              "ideal_for": "Singer-songwriters, indie artists, demos",
+              "includes": [
+                "One complete piano part (up to 4 minutes)",
+                "Stereo WAV mix (24-bit/96kHz)",
+                "MIDI file included",
+                "2 rounds of revisions",
+                "3-5 day delivery"
+              ],
+              "add_ons": ["Rush delivery +$75", "Additional revisions +$50 each"]
+            },
+            {
+              "name": "Professional Session Package",
+              "price": "$250-$350",
+              "ideal_for": "Album projects, professional releases, film cues",
+              "includes": [
+                "Full arrangement and performance",
+                "Multi-mic stems (close, room, mixed)",
+                "MIDI with velocity and articulation data",
+                "Unlimited revisions",
+                "24-48 hour rush available",
+                "Real-time virtual session option",
+                "Chart/lead sheet creation if needed"
+              ]
+            },
+            {
+              "name": "Album Package",
+              "price": "$1,200-$1,500 (10 tracks)",
+              "ideal_for": "Full albums, EPs, soundtrack albums",
+              "includes": [
+                "Up to 10 songs with full professional treatment",
+                "Priority scheduling",
+                "Creative arrangement consultation",
+                "All stems + MIDI for every track",
+                "Mix notes and production suggestions",
+                "Discounted rate vs. individual tracks"
+              ]
+            },
+            {
+              "name": "Film/Soundtrack Recording",
+              "price": "$500-$2,000 per cue",
+              "ideal_for": "Films, documentaries, commercials, games",
+              "includes": [
+                "Custom composition or performance to picture",
+                "Score-locked to video",
+                "Multiple takes and variations",
+                "Full stems package for re-recording mixing",
+                "MIDI mockup + live recording",
+                "Direct collaboration with composer/director"
+              ]
+            },
+            {
+              "name": "Hourly Studio Time",
+              "price": "$125/hour (2 hour minimum)",
+              "ideal_for": "Complex arrangements, live collaboration, producers",
+              "includes": [
+                "Real-time virtual session via video",
+                "Live collaboration and direction",
+                "Multiple instrument options in session",
+                "Immediate playback and review",
+                "All session recordings provided"
+              ]
+            }
           ],
-          "pricing": {
-            "model", "free_tier", "starter_price", "tiers": [
-              {"name", "price", "features" (20+), "limits", "best_for"}
+
+          "recording_process": {
+            "step_1": {
+              "title": "Send Your Track & Vision",
+              "description": "Upload your backing track, reference, or sheet music. Share your creative vision, genre inspiration, and specific style references.",
+              "accepted_formats": ["MP3", "WAV", "AIFF", "Session files", "Sheet music PDF", "Chord charts", "Lyrics with chords"],
+              "upload_methods": ["Dropbox", "Google Drive", "WeTransfer", "Email"]
+            },
+            "step_2": {
+              "title": "Creative Consultation",
+              "description": "Brief phone or video call to discuss arrangement ideas, piano style, and your vision. I'll offer suggestions based on 20+ years of experience across albums, films, and live performance.",
+              "duration": "15-30 minutes",
+              "optional": "Can skip for straightforward projects"
+            },
+            "step_3": {
+              "title": "Professional Recording Session",
+              "description": "Multi-mic recording using premium instruments and studio-grade equipment. Multiple takes captured to ensure the best possible performance.",
+              "options": [
+                "Async recording (you review when delivered)",
+                "Real-time virtual session (attend via video call)",
+                "Live direction (you guide the session in real-time)"
+              ],
+              "technology": "Audiomovers ListenTo for pristine audio streaming"
+            },
+            "step_4": {
+              "title": "Review & Revisions",
+              "description": "First mix delivered within 24-72 hours. Request changes, tweaks, or alternative takes until it's exactly what you need.",
+              "revision_policy": "2-3 rounds included (unlimited for premium packages)",
+              "communication": "Email, phone, or video call for feedback"
+            },
+            "step_5": {
+              "title": "Final Delivery",
+              "description": "High-quality files delivered via secure cloud transfer. All stems, MIDI, and additional materials included per your package.",
+              "delivery_formats": {
+                "audio": ["24-bit/96kHz WAV", "16-bit/44.1kHz WAV", "320kbps MP3"],
+                "stems": ["Stereo mix", "Close mic", "Room mic", "Individual layers if applicable"],
+                "midi": ["MIDI file with velocity/CC data", "Notation/lead sheet if requested"],
+                "extras": ["Session notes", "Production suggestions"]
+              }
+            }
+          },
+
+          "equipment_studio": {
+            "acoustic_pianos": [
+              {
+                "model": "Yamaha C7 Grand Piano",
+                "description": "Professional 7'6\" concert grand, perfect for classical, jazz, and contemporary",
+                "best_for": "Albums, film scores, jazz, classical"
+              }
+            ],
+            "sample_libraries": [
+              {
+                "name": "Steinway Model B",
+                "description": "Premium multi-sampled concert grand with 5 mic positions",
+                "best_for": "Pop, rock, singer-songwriter"
+              }
+            ],
+            "electric_vintage": [
+              {
+                "model": "Fender Rhodes Mark II",
+                "description": "Classic 73-key electric piano, iconic soul and funk sound",
+                "best_for": "R&B, soul, indie, jazz"
+              },
+              {
+                "model": "Hammond B3 + Leslie 122",
+                "description": "Authentic tonewheel organ with rotating speaker cabinet",
+                "best_for": "Gospel, jazz, rock, blues, soul, funk",
+                "page": "/services/hammond-organ-recording/"
+              }
+            ],
+            "accordion": [
+              {
+                "model": "Professional Acoustic Accordion",
+                "description": "Full-size piano accordion for folk, world music, and cinematic textures",
+                "best_for": "Folk, world music, French musette, tango, polka, film scores, indie",
+                "page": "/services/accordion-recording/"
+              }
+            ],
+            "vibraphone": [
+              {
+                "model": "Professional Vibraphone",
+                "description": "4-octave vibraphone with motor control for jazz, ambient, and cinematic music",
+                "best_for": "Jazz, film scores, ambient, experimental, dream pop",
+                "page": "/services/vibraphone-recording/"
+              }
+            ],
+            "synthesizers": [
+              {
+                "model": "Moog Sub 37",
+                "description": "Analog synthesizer for bass and lead sounds",
+                "best_for": "Electronic, pop, indie"
+              }
+            ],
+            "recording_chain": [
+              "Neumann U87 condenser microphones (stereo pair)",
+              "Royer R-121 ribbon microphones",
+              "Universal Audio Apollo X8 interface",
+              "Avalon VT-737 tube preamp/compressor",
+              "Pro Tools HD 2024",
+              "Professionally treated acoustic space"
+            ],
+            "monitoring": "Yamaha HS8 + Focal Alpha 65 studio monitors"
+          },
+
+          "genres_expertise": [
+            {
+              "genre": "Singer-Songwriter / Indie",
+              "description": "Intimate, supportive piano that enhances vocals. Fingerpicking patterns, arpeggios, and tasteful chord voicings.",
+              "influences": "Bon Iver, Phoebe Bridgers, Sufjan Stevens, Iron & Wine",
+              "experience": "50+ singer-songwriter albums recorded",
+              "audio_examples": ["example1.mp3", "example2.mp3"]
+            },
+            {
+              "genre": "Pop / Radio-Ready",
+              "description": "Modern production piano: bright, present, and rhythmic. Layering acoustic with synths for contemporary sound.",
+              "influences": "Coldplay, OneRepublic, The 1975, Taylor Swift",
+              "experience": "30+ pop albums and singles",
+              "audio_examples": ["pop1.mp3", "pop2.mp3"]
+            },
+            {
+              "genre": "Jazz / Standards",
+              "description": "Authentic jazz voicings, walking bass lines, comping, improvisation. Traditional and contemporary jazz styles.",
+              "influences": "Bill Evans, Brad Mehldau, Robert Glasper, Keith Jarrett",
+              "experience": "20+ years performing and recording jazz",
+              "audio_examples": ["jazz1.mp3", "jazz2.mp3"]
+            },
+            {
+              "genre": "Classical / Neoclassical",
+              "description": "Conservatory-trained performance of composed parts or original arrangements in classical and neoclassical styles.",
+              "influences": "Max Richter, Ludovico Einaudi, Ólafur Arnalds, Nils Frahm",
+              "experience": "15+ classical and neoclassical projects",
+              "audio_examples": ["classical1.mp3"]
+            },
+            {
+              "genre": "Film Scoring / Cinematic",
+              "description": "Emotional, story-driven piano. From intimate solo pieces to epic orchestral accompaniment. Understanding of scoring to picture.",
+              "influences": "Hans Zimmer, Thomas Newman, Alexandre Desplat, John Williams",
+              "experience": "15+ films scored or piano recorded for",
+              "audio_examples": ["film1.mp3", "film2.mp3", "film3.mp3"]
+            },
+            {
+              "genre": "Rock / Alternative",
+              "description": "Driving, rhythmic piano and keyboard parts. Rhodes, Wurlitzer, organ, and synth textures for modern rock production.",
+              "influences": "Radiohead, Muse, Arcade Fire, The National",
+              "experience": "30+ rock and alternative albums",
+              "audio_examples": ["rock1.mp3"]
+            },
+            {
+              "genre": "Country / Americana",
+              "description": "Honky-tonk piano, barroom styles, and modern Nashville production techniques.",
+              "influences": "Nashville session tradition",
+              "experience": "10+ country and Americana projects",
+              "audio_examples": ["country1.mp3"]
+            },
+            {
+              "genre": "R&B / Soul",
+              "description": "Rhodes, Wurlitzer, B3 organ. Soulful chord progressions and groove-oriented playing.",
+              "influences": "Anderson .Paak, SZA, Daniel Caesar, D'Angelo",
+              "experience": "20+ R&B and soul projects",
+              "audio_examples": ["rnb1.mp3"]
+            }
+          ],
+
+          "portfolio_projects": {
+            "albums_singer_songwriter": {
+              "count": "50+ albums",
+              "description": "Piano recording for indie and singer-songwriter albums",
+              "notable_examples": [
+                {"title": "Album Name", "artist": "Artist Name", "year": "2023", "role": "Piano, keys, arrangement"}
+              ]
+            },
+            "albums_bands": {
+              "count": "30+ albums",
+              "description": "Full band production with piano/keyboard arrangements",
+              "genres": ["Rock", "Alternative", "Indie rock", "Pop-rock"]
+            },
+            "film_soundtracks": {
+              "count": "15+ films",
+              "description": "Piano for independent films, documentaries, and scores",
+              "types": ["Feature films", "Documentary scores", "Short films", "Commercial music", "Trailer music"]
+            },
+            "other_projects": {
+              "commercials": "Ad music and brand content",
+              "podcasts": "Theme music and intros",
+              "video_games": "Interactive and atmospheric music",
+              "worship": "Contemporary Christian music"
+            }
+          },
+
+          "pricing_transparency": {
+            "philosophy": "Clear, upfront pricing with no hidden fees",
+            "single_track_range": "$150-$350 (depending on complexity)",
+            "film_scoring_range": "$500-$2,000 per cue",
+            "hourly_rate": "$125/hour (2hr minimum)",
+            "album_discounts": "15-20% discount for 5+ songs",
+            "revision_policy": "2 free revisions, $50 each additional",
+            "rush_fees": "48hr: +$75, Same-day: +$150",
+            "payment_methods": ["PayPal", "Venmo", "Zelle", "Credit card", "Wire transfer"]
+          },
+
+          "turnaround_times": {
+            "standard_delivery": "3-5 business days",
+            "rush_48_hour": "Available for +$75 fee",
+            "same_day": "Available for +$150 (subject to schedule)",
+            "album_projects": "2-3 weeks for full album (flexible)",
+            "film_scoring": "Negotiable based on deadline and complexity"
+          },
+
+          "unique_selling_propositions": [
+            {
+              "usp": "20+ Years Professional Experience",
+              "details": "Extensive credits across albums, films, and live performance in multiple genres",
+              "proof": "Portfolio with 100+ projects, major label credits"
+            },
+            {
+              "usp": "Album + Film Specialization",
+              "details": "Deep experience in both music albums and film scoring - understand both worlds",
+              "proof": "50+ albums, 15+ films"
+            },
+            {
+              "usp": "Real-Time Virtual Sessions",
+              "details": "Work together live via video with broadcast-quality audio streaming (Audiomovers ListenTo)",
+              "benefit": "Like having a studio pianist in the room"
+            },
+            {
+              "usp": "Complete Pricing Transparency",
+              "details": "Clear package prices listed - no mystery quotes or hidden fees",
+              "benefit": "Know exactly what you're paying before you commit"
+            },
+            {
+              "usp": "MIDI + Audio Flexibility",
+              "details": "Receive both MIDI and audio files for maximum post-production control",
+              "benefit": "Change sounds, timing, or velocity after recording"
+            },
+            {
+              "usp": "Multiple Instruments Included",
+              "details": "Not just piano - Rhodes, Hammond organ, accordion, vibraphone, and synths all available",
+              "benefit": "Complete keyboard and specialty instrument tracking in one session"
+            },
+            {
+              "usp": "Arrangement Consultation Included",
+              "details": "Creative input on song structure, dynamics, and production at no extra charge",
+              "benefit": "Get professional production advice with every session"
+            },
+            {
+              "usp": "Fast Turnaround Guaranteed",
+              "details": "Standard 3-5 days, rush options available without quality compromise",
+              "benefit": "Meet your deadline without sacrificing artistry"
+            }
+          ],
+
+          "testimonials": [
+            {
+              "quote": "Quote from client about the piano recording elevating their album",
+              "client_name": "Artist or Band Name",
+              "project": "Album title or film name",
+              "type": "Singer-songwriter album",
+              "photo": "client-photo.jpg"
+            }
+          ],
+
+          "seo_strategy": {
+            "primary_keywords": [
+              "remote piano recording",
+              "online session pianist",
+              "professional piano tracks",
+              "hire session pianist",
+              "piano recording service",
+              "remote keyboard recording",
+              "film score piano recording",
+              "album piano recording online"
+            ],
+            "long_tail_keywords": [
+              "remote piano recording for singer-songwriters",
+              "professional piano tracks for indie albums",
+              "film score piano recording online",
+              "hire session pianist for remote recording",
+              "online piano recording with MIDI files",
+              "affordable professional piano recording",
+              "remote Rhodes electric piano recording",
+              "virtual piano session with video call"
+            ],
+            "location_keywords": [
+              "remote piano recording [city]",
+              "online session pianist [state]",
+              "virtual piano recording [country]"
             ]
           },
-          "use_cases": [
-            {"title", "description" (200+ words), "industry", "company_size"}
-          ],
-          "pros_cons": {
-            "pros": [{"title", "explanation" (50+ words)}],
-            "cons": [{"title", "explanation" (50+ words)}]
+
+          "competitive_advantages": {
+            "vs_marketplace_platforms": "No platform fees, direct relationship, personal service, established brand",
+            "vs_individual_competitors": "Broader genre experience, film specialization, pricing transparency, faster delivery, modern web presence",
+            "vs_local_studios": "Convenience, lower cost, faster turnaround, no travel required, same professional quality"
           },
-          "integrations": [
-            {"name", "type", "description", "documentation_url"}
-          ],
-          "alternatives": [
-            {"name", "comparison" (100+ words), "when_to_choose"}
-          ],
-          "reviews": {
-            "average_rating", "total_reviews",
-            "rating_breakdown": {"5": %, "4": %, "3": %, "2": %, "1": %},
-            "expert_reviews": [{"source", "rating", "summary" (200+ words)}]
-          },
-          "technical_specs": {
-            "platforms", "languages", "api", "security", "compliance"
-          },
-          "support": {
-            "channels", "response_time", "documentation_quality", "community"
-          },
-          "media": {
-            "logo", "screenshots" (10+), "videos", "diagrams"
-          }
+
+          "what_competitors_lack": [
+            "Clear pricing structure (most hide prices)",
+            "Film/soundtrack specialization combined with album work",
+            "Real-time virtual session capability with quality audio",
+            "Educational content and client resources",
+            "Modern, user-friendly website",
+            "Strong SEO and content marketing",
+            "MIDI + audio deliverables emphasized",
+            "Arrangement consultation included in price",
+            "Fast turnaround guarantees",
+            "Multiple instrument options clearly listed (piano, Hammond organ, accordion, vibraphone, Rhodes)",
+            "Specialty instruments like accordion and vibraphone rarely offered"
+          ]
         }
         ```
-     
-     3. **Create comprehensive taxonomy archive pages**
-        
-        **For Category/Type taxonomy pages (e.g., /categories/crm-software/, /types/italian-restaurants/, /specialties/anxiety-therapy/):**
-        - Comprehensive overview of the category (1000+ words)
-        - Complete buyer's/selection guide
-        - Key features to look for
-        - Common use cases and who needs this
-        - Price range analysis and what affects cost
-        - Industry trends and future outlook
-        - Comparison methodology explanation
-        - Top 10-20 entries with detailed previews
-        - Quick comparison table
-        - 20-30 FAQs about this category
-        - Related categories and how they differ
-        - Expert opinions and industry insights
-        - Glossary of category-specific terms
-        - Statistics and market data
-        - ALL entries in this category listed below with rich cards
-        
-        **For Location pages (e.g., /locations/new-york/):**
-        - Complete local market analysis (1000+ words)
-        - Local regulations and requirements
-        - Average prices in this area vs national
-        - Transportation and parking information
-        - Neighborhood-by-neighborhood breakdown
-        - Local insurance providers accepted
-        - Emergency services in the area
-        - Community resources and support groups
-        - Local statistics and demographics
-        - ALL providers in this location with detailed cards
-        - Nearby locations for comparison
-        - Local events and workshops
-        
-        **For Combined taxonomy pages (e.g., /crm-software-for-startups/, /italian-restaurants-manhattan/, /anxiety-therapists-new-york/):**
-        - Everything from both individual taxonomies combined
-        - Specific local/niche context 
-        - Why this combination matters (e.g., "Why startups need different CRM")
-        - Unique considerations for this intersection
-        - Price analysis for this specific combination
-        - Top 10 detailed comparisons with scoring methodology
-        - Map visualization (if location-based)
-        - Availability/wait times analysis
-        - Quick filter and sort options
-        - ALL matching entries with rich information cards
-     
-     4. **Collect extensive imagery**
-        - Product screenshots (10+ per entry)
-        - Logo variations
-        - Feature demonstration images
-        - Comparison charts and infographics
-        - Industry-relevant stock photos from Unsplash
-        - Create custom diagrams where needed
+
+     3. **Create comprehensive service pages with SEO-optimized content**
+
+        **Homepage:**
+        - Hero section with compelling value proposition
+        - Embedded audio player with 5-8 genre examples
+        - Clear service packages with pricing
+        - 5-step process visualization
+        - Client testimonials with photos/audio
+        - Equipment showcase
+        - Clear CTAs throughout
+        - FAQ section (15-20 questions)
+
+        **Services by Genre Pages** (e.g., /piano-recording-for-singer-songwriters/, /film-score-piano-recording/)
+        - Comprehensive genre overview (1000+ words)
+        - What makes this genre unique
+        - Piano style and approach for this genre
+        - Notable examples and influences
+        - Audio examples from this genre
+        - Typical pricing for these projects
+        - Process workflow specific to genre
+        - FAQs about recording piano for this genre
+        - Related genres and cross-over styles
+        - Call to action: Book this service
+
+        **Service Package Pages** (e.g., /single-track-recording/, /album-recording-package/, /film-soundtrack-recording/)
+        - Detailed package description (800+ words)
+        - What's included in exhaustive detail
+        - Who this package is perfect for
+        - Pricing breakdown and add-ons
+        - Process workflow for this package
+        - Audio examples from projects using this package
+        - Testimonials from clients who booked this
+        - Comparison to other packages
+        - FAQs specific to this package
+        - Clear booking CTA
+
+        **Portfolio/Work Pages** (/albums/, /films/, /by-genre/)
+        - Organized by project type or genre
+        - Embedded audio players for each example
+        - Project description and role
+        - Client testimonials
+        - Behind-the-scenes notes
+        - Technical details (equipment used, approach)
+
+        **Specialty Instrument Pages** (Hammond Organ, Accordion, Vibraphone)
+
+        **/services/hammond-organ-recording/**
+        - Comprehensive Hammond B3 organ overview (800+ words)
+        - History and iconic sound of the Hammond organ
+        - Musical genres perfect for organ (gospel, jazz, rock, blues, soul, funk)
+        - Leslie speaker explanation and sound character
+        - Famous organ recordings and artists for reference
+        - Pricing for organ sessions
+        - Audio examples: Gospel groove, jazz comping, rock power chords
+        - Recording process and mic technique
+        - When to choose organ over piano
+        - FAQ about Hammond organ recording
+
+        **/services/accordion-recording/**
+        - Comprehensive accordion overview (800+ words)
+        - Types of music perfect for accordion (folk, world music, French musette, tango, polka, indie, film scores)
+        - Accordion's unique emotional and textural qualities
+        - Modern accordion in indie and cinematic music
+        - Pricing for accordion sessions
+        - Audio examples: French waltz, tango, folk dance, cinematic texture, indie atmosphere
+        - Recording technique and mic placement
+        - Bellows dynamics and expression capabilities
+        - FAQ about accordion recording
+        - Notable accordion in modern music
+
+        **/services/vibraphone-recording/**
+        - Comprehensive vibraphone overview (800+ words)
+        - Musical genres for vibraphone (jazz, film scores, ambient, dream pop, experimental)
+        - The unique shimmering, ethereal sound of vibes
+        - Motor speed control for vibrato effect
+        - Mallet choices and tonal variations
+        - Pricing for vibraphone sessions
+        - Audio examples: Jazz ballad, film underscore, ambient texture, dream pop shimmer
+        - Recording approach: capturing resonance and sustain
+        - When to use vibraphone vs. piano vs. glockenspiel
+        - FAQ about vibraphone recording
+        - Famous vibraphone players and recordings for reference
+
+        **Blog/Resources Pages** for SEO
+        - "How to Prepare Your Tracks for Remote Piano Recording"
+        - "MIDI vs. Audio: Why You Need Both"
+        - "The Best Piano Sound for Your Genre"
+        - "Behind the Scenes: Recording Piano for [Famous Album/Film]"
+        - "Equipment Guide: What Makes Great Piano Recording"
+        - Genre-specific guides and tips
+
+     4. **Collect extensive imagery and media**
+        - Professional photos of your pianos (Yamaha, Steinway samples)
+        - **Hammond B3 organ photos** (organ with Leslie cabinet, close-ups of drawbars, keys)
+        - **Accordion photos** (full instrument, bellows detail, keyboard, in playing position)
+        - **Vibraphone photos** (full 4-octave setup, mallets, motor mechanism, resonators)
+        - Studio setup photos showing all equipment
+        - Recording session photos (with musician at each instrument)
+        - Microphone placement photos for piano, organ, accordion, vibraphone
+        - Equipment close-ups (mics, preamps, interface)
+        - Behind-the-scenes video content
+        - Unsplash royalty-free images:
+          * Professional recording studio aesthetics
+          * Musicians at work with various instruments
+          * Musical instruments and equipment
+          * Jazz musicians with vibraphone
+          * Folk musicians with accordion
+          * Hammond organ in studio settings
+          * Creative/artistic music imagery
+        - Audio examples for EVERY genre (10-15 total piano examples)
+        - **Audio examples for specialty instruments:**
+          * Hammond organ: gospel, jazz, rock (3-5 examples)
+          * Accordion: folk, tango, cinematic, indie (3-5 examples)
+          * Vibraphone: jazz, film score, ambient (3-5 examples)
+        - Before/after comparison audio files
+        - Video testimonials from clients (if available)
+        - Process demonstration videos (recording each instrument type)
 
      ### Phase 2: Website Development (THIS IS NOT OPTIONAL - YOU MUST BUILD THE WEBSITE)
      
@@ -417,13 +858,15 @@
 
      ```bash
      # Search for information (use s.jina.ai)
-     curl "https://s.jina.ai/?q=YOUR_SEARCH_TERM" \
-       -H "Authorization: Bearer $JINA_API_KEY"
+curl "https://s.jina.ai/?q=Jina+AI" \
+  -H "Authorization: Bearer jina_73e94e3522834a358e1cc1a72f0bbcf6xVxVJLwl3G3PVs_VY16neCLSxJr5" \
+  -H "X-Respond-With: no-content"
+
 
      # Scrape individual pages (use r.jina.ai)
-     curl "https://r.jina.ai/https://example.com/page" \
-       -H "Authorization: Bearer $JINA_API_KEY"
-     ```
+curl "https://r.jina.ai/https://www.example.com" \
+  -H "Authorization: Bearer jina_73e94e3522834a358e1cc1a72f0bbcf6xVxVJLwl3G3PVs_VY16neCLSxJr5"
+
 
      **Important Research Guidelines:**
      - Create detailed JSON for each directory page
