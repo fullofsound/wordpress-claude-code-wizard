@@ -33,6 +33,8 @@
 
      When building a directory website, you MUST complete ALL phases in one continuous workflow:
 
+ALL DATA IS ALREADY IN \tmp - use this to make the site
+
      ### Phase 1: Deep Research & Comprehensive Competitive Analysis - Remote Piano Recording
 
      **GOAL: Create a website so information-rich and professional that it becomes the #1 choice for remote piano recording services**

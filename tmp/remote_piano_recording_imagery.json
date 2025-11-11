@@ -1,0 +1,325 @@
+{
+  "hero_images": {
+    "homepage": {
+      "url": "https://images.unsplash.com/photo-1518544897598-d3c0040f1089?ixlib=rb-4.0.3&q=80&w=2000",
+      "alt": "Professional grand piano in elegant recording studio",
+      "photographer": "Jean-Philippe Delberghe",
+      "unsplash_link": "https://unsplash.com/photos/2fL7eoxAapc"
+    },
+    "services": {
+      "url": "https://images.unsplash.com/photo-1609707955926-df01104aa8f7?ixlib=rb-4.0.3&q=80&w=2000",
+      "alt": "Grand piano in professional recording environment",
+      "photographer": "Christian Lue",
+      "unsplash_link": "https://unsplash.com/photos/pA6o-AHUTWo"
+    },
+    "about": {
+      "url": "https://images.unsplash.com/photo-1620942988625-74825774fdda?ixlib=rb-4.0.3&q=80&w=2000",
+      "alt": "Closeup of grand piano in recording studio",
+      "photographer": "Yanna Zissiadou",
+      "unsplash_link": "https://unsplash.com/photos/Zu2P0CV7B2k"
+    },
+    "contact": {
+      "url": "https://images.unsplash.com/photo-1624088798012-7eabdb19cf90?ixlib=rb-4.0.3&q=80&w=2000",
+      "alt": "Black grand piano on wooden floor",
+      "photographer": "rashid",
+      "unsplash_link": "https://unsplash.com/photos/OihZAyTkj14"
+    }
+  },
+  "instrument_images": {
+    "grand_piano": [
+      {
+        "url": "https://images.unsplash.com/photo-1518544897598-d3c0040f1089",
+        "alt": "Grand piano in white room",
+        "usage": "Service pages, homepage slider",
+        "unsplash_id": "2fL7eoxAapc"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1609707955926-df01104aa8f7",
+        "alt": "Grand piano with warm lighting",
+        "usage": "Album recording page",
+        "unsplash_id": "pA6o-AHUTWo"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620942988625-74825774fdda",
+        "alt": "Grand piano closeup",
+        "usage": "Portfolio page",
+        "unsplash_id": "Zu2P0CV7B2k"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1624088798012-7eabdb19cf90",
+        "alt": "Black grand piano professional",
+        "usage": "Premium package page",
+        "unsplash_id": "OihZAyTkj14"
+      }
+    ],
+    "hammond_organ": [
+      {
+        "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04",
+        "alt": "Vintage Hammond B3 organ",
+        "usage": "Hammond organ specialty page",
+        "unsplash_search": "hammond organ"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe",
+        "alt": "Classic organ keyboard",
+        "usage": "Soul/R&B service pages",
+        "unsplash_search": "organ keys"
+      }
+    ],
+    "accordion": [
+      {
+        "url": "https://images.unsplash.com/photo-1610993621479-e5e6b291a061",
+        "alt": "Professional accordion instrument",
+        "usage": "Accordion specialty page",
+        "unsplash_search": "accordion"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1579027989859-e6e8f6d4b16d",
+        "alt": "Accordion closeup keys",
+        "usage": "Folk/World music pages",
+        "unsplash_search": "accordion musician"
+      }
+    ],
+    "vibraphone": [
+      {
+        "url": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7",
+        "alt": "Vibraphone with mallets in studio",
+        "usage": "Vibraphone specialty page",
+        "unsplash_search": "vibraphone"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629",
+        "alt": "Jazz vibraphone performance",
+        "usage": "Jazz service page",
+        "unsplash_search": "vibraphone jazz"
+      }
+    ],
+    "piano_keys": [
+      {
+        "url": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0",
+        "alt": "Piano keys closeup black and white",
+        "usage": "Blog posts, backgrounds",
+        "unsplash_id": "piano-keys-closeup"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552422535-c45813c61732",
+        "alt": "Hands playing piano keys",
+        "usage": "Process page, testimonials",
+        "unsplash_search": "hands piano"
+      }
+    ]
+  },
+  "studio_images": {
+    "recording_studio": [
+      {
+        "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04",
+        "alt": "Professional recording studio with equipment",
+        "usage": "About page, studio tour",
+        "unsplash_search": "recording studio"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1519508234439-4f23643125c1",
+        "alt": "Audio recording equipment and mixer",
+        "usage": "Technical specifications page",
+        "unsplash_search": "audio equipment"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1598653222000-6b7b7a552625",
+        "alt": "Studio monitors and audio interface",
+        "usage": "Recording process page",
+        "unsplash_search": "studio monitors"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16",
+        "alt": "Microphone in recording booth",
+        "usage": "Equipment page",
+        "unsplash_search": "studio microphone"
+      }
+    ],
+    "music_production": [
+      {
+        "url": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7",
+        "alt": "Music production workspace",
+        "usage": "Production services page",
+        "unsplash_search": "music production"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1598653222000-6b7b7a552625",
+        "alt": "DAW and recording setup",
+        "usage": "Workflow explanation",
+        "unsplash_search": "daw recording"
+      }
+    ]
+  },
+  "genre_specific_images": {
+    "film_soundtrack": [
+      {
+        "url": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618",
+        "alt": "Cinematic piano with dramatic lighting",
+        "usage": "Film/TV scoring page",
+        "unsplash_search": "cinematic piano"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae",
+        "alt": "Piano in concert hall setting",
+        "usage": "Orchestral arrangements page",
+        "unsplash_search": "concert piano"
+      }
+    ],
+    "jazz": [
+      {
+        "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f",
+        "alt": "Jazz piano performance",
+        "usage": "Jazz service page",
+        "unsplash_search": "jazz piano"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629",
+        "alt": "Jazz club atmosphere",
+        "usage": "Jazz genre background",
+        "unsplash_search": "jazz club"
+      }
+    ],
+    "gospel_soul": [
+      {
+        "url": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe",
+        "alt": "Soulful organ performance",
+        "usage": "Gospel/Soul page",
+        "unsplash_search": "gospel organ"
+      }
+    ],
+    "classical": [
+      {
+        "url": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae",
+        "alt": "Classical concert grand piano",
+        "usage": "Classical music page",
+        "unsplash_search": "classical piano"
+      }
+    ],
+    "pop_rock": [
+      {
+        "url": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89",
+        "alt": "Modern pop music production",
+        "usage": "Pop/Rock service page",
+        "unsplash_search": "pop music production"
+      }
+    ],
+    "singer_songwriter": [
+      {
+        "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+        "alt": "Intimate singer-songwriter session",
+        "usage": "Singer-songwriter page",
+        "unsplash_search": "singer songwriter studio"
+      }
+    ],
+    "country_americana": [
+      {
+        "url": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0",
+        "alt": "Americana music setting",
+        "usage": "Country/Americana page",
+        "unsplash_search": "country music"
+      }
+    ],
+    "world_folk": [
+      {
+        "url": "https://images.unsplash.com/photo-1579027989859-e6e8f6d4b16d",
+        "alt": "World music instruments",
+        "usage": "World/Folk page",
+        "unsplash_search": "world music"
+      }
+    ]
+  },
+  "background_textures": {
+    "abstract_music": [
+      {
+        "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+        "alt": "Abstract music waves",
+        "usage": "Section backgrounds, overlays",
+        "unsplash_search": "music abstract"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f",
+        "alt": "Vinyl record texture",
+        "usage": "Vintage theme sections",
+        "unsplash_search": "vinyl texture"
+      }
+    ],
+    "sheet_music": [
+      {
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "alt": "Musical notation sheet music",
+        "usage": "Blog backgrounds, testimonials",
+        "unsplash_search": "sheet music"
+      }
+    ]
+  },
+  "portfolio_placeholders": {
+    "album_covers": [
+      {
+        "url": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae",
+        "alt": "Album recording session",
+        "usage": "Portfolio grid placeholders",
+        "category": "album"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618",
+        "alt": "Film score session",
+        "usage": "Portfolio grid placeholders",
+        "category": "film"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f",
+        "alt": "Jazz recording",
+        "usage": "Portfolio grid placeholders",
+        "category": "jazz"
+      }
+    ]
+  },
+  "cta_images": {
+    "call_to_action": [
+      {
+        "url": "https://images.unsplash.com/photo-1552422535-c45813c61732",
+        "alt": "Hands on piano inspiring action",
+        "usage": "CTA sections throughout site",
+        "unsplash_search": "piano hands"
+      }
+    ]
+  },
+  "testimonial_avatars": {
+    "musician_portraits": [
+      {
+        "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f",
+        "alt": "Professional musician portrait",
+        "usage": "Testimonial author images",
+        "unsplash_search": "musician portrait"
+      }
+    ]
+  },
+  "unsplash_collections": {
+    "grand_piano": "https://unsplash.com/s/photos/grand-piano",
+    "recording_studio": "https://unsplash.com/s/photos/recording-studio",
+    "hammond_organ": "https://unsplash.com/s/photos/hammond-organ",
+    "accordion": "https://unsplash.com/s/photos/accordion",
+    "vibraphone": "https://unsplash.com/s/photos/vibraphone",
+    "piano_keys": "https://unsplash.com/s/photos/piano-keys",
+    "music_production": "https://unsplash.com/s/photos/music-production",
+    "jazz_piano": "https://unsplash.com/s/photos/jazz-piano",
+    "film_score": "https://unsplash.com/s/photos/film-score"
+  },
+  "image_optimization_notes": {
+    "hero_sizes": "2000x800px - WebP with JPEG fallback",
+    "card_images": "600x400px - WebP with JPEG fallback",
+    "thumbnails": "300x200px - WebP with JPEG fallback",
+    "backgrounds": "1920x1080px - Compressed, lazy loaded",
+    "icons": "SVG preferred, PNG fallback at 100x100px",
+    "lazy_loading": "All images below fold should lazy load",
+    "responsive_breakpoints": [
+      "320px (mobile)",
+      "768px (tablet)",
+      "1024px (laptop)",
+      "1440px (desktop)",
+      "1920px (large desktop)"
+    ]
+  },
+  "attribution_footer": "Images courtesy of Unsplash contributors. All images are free for commercial use under the Unsplash License."
+}

@@ -1,0 +1,76 @@
+{
+  "soundbetter_categories": [
+    "Piano/Keys",
+    "Keyboards",
+    "Hammond Organ",
+    "Vintage Keys",
+    "Composers",
+    "Producers",
+    "Arrangers",
+    "Session Musicians"
+  ],
+  "top_competitors": [
+    {
+      "name": "Michael Arrom",
+      "reviews": 842,
+      "credentials": "Keith Urban, Steve Vai, Hunter Hayes, USC Professor",
+      "pricing": "Not disclosed",
+      "strengths": "Major artist credits, professional presentation",
+      "weaknesses": "No pricing transparency"
+    },
+    {
+      "name": "Reed Pittman",
+      "reviews": 316,
+      "credentials": "Lady A, Matt Maher, Drew Holcomb",
+      "strengths": "Many production credits"
+    },
+    {
+      "name": "Leo Music Design",
+      "reviews": 1276,
+      "specialties": ["Neo Soul", "Pop", "Jazz", "Afro House"],
+      "location": "Barcelona"
+    },
+    {
+      "name": "Paul Kempf",
+      "reviews": 158,
+      "instruments": ["Piano", "Hammond Organ", "Rhodes"],
+      "experience": "25+ years"
+    },
+    {
+      "name": "Jon Cobert",
+      "reviews": 11,
+      "instruments": ["Piano", "Organ", "Synthesizers", "ACCORDION"],
+      "credentials": "John Lennon's last band, Stand By Me recording",
+      "major_credits": ["John Lennon", "Harry Chapin", "Al Green", "Laura Branigan"]
+    }
+  ],
+  "pricing_range": {
+    "single_track": "$45-$500",
+    "average_professional": "$150-$350",
+    "high_end_with_credits": "$300-$500+",
+    "film_scoring": "$500-$2000"
+  },
+  "common_offerings": [
+    "Piano (acoustic and sample libraries)",
+    "Hammond B3 organ",
+    "Rhodes electric piano",
+    "Wurlitzer",
+    "Synths",
+    "MIDI + Audio deliverables",
+    "Stems (multi-mic)",
+    "Real-time virtual sessions"
+  ],
+  "rare_instruments_opportunity": {
+    "accordion": "RARE - only Jon Cobert and a few others offer this",
+    "vibraphone": "VERY RARE - almost nobody offers vibraphone recording",
+    "competitive_advantage": "Offering piano + Hammond + accordion + vibraphone makes you UNIQUE"
+  },
+  "what_competitors_lack": [
+    "Pricing transparency (most don't show prices)",
+    "Film/soundtrack specialization combined with album work",
+    "Specialty instruments (accordion, vibraphone)",
+    "Educational content/resources",
+    "Modern SEO-optimized websites",
+    "Clear service package descriptions"
+  ]
+}

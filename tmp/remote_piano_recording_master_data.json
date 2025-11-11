@@ -1,0 +1,302 @@
+{
+  "business_identity": {
+    "name": "Remote Piano Recording",
+    "tagline": "Professional Piano Recording for Albums, Films & Soundtracks",
+    "mission_statement": "With over 20 years of professional experience, I provide world-class remote piano recording services for albums, films, and soundtracks. From intimate singer-songwriter projects to cinematic film scores, I deliver studio-quality recordings with the personal attention your music deserves. My home studio features premium instruments including grand piano, Hammond B3 organ, accordion, and vibraphone - rare combinations that set your project apart. Whether you need delicate classical piano, driving rock keyboards, soulful Hammond organ, atmospheric accordion textures, or shimmering vibraphone, I bring versatility, creativity, and decades of experience to every session. I've worked across every genre imaginable, from jazz and classical to pop, rock, country, and R&B. My approach combines technical excellence with musical sensitivity, ensuring each part serves the song. With fast turnaround times, unlimited revisions on premium packages, and complete pricing transparency, you know exactly what you're getting before you commit. I offer real-time virtual sessions using Audiomovers ListenTo technology, so we can work together as if we're in the same room. Every project receives MIDI files plus studio-quality audio, giving you maximum flexibility in post-production. From arranging to performance to mixing notes, I'm invested in making your music the best it can be.",
+    "years_experience": "20+",
+    "specializations": ["Albums", "Films", "Soundtracks", "Singer-Songwriter", "Bands", "Jazz", "Classical", "Pop", "Rock"],
+    "location": "Available globally - Remote recording from professional home studio",
+    "unique_instruments": ["Grand Piano", "Hammond B3 Organ", "Accordion", "Vibraphone", "Fender Rhodes", "Synthesizers"]
+  },
+  "service_packages": [
+    {
+      "id": "single-track",
+      "name": "Single Track Recording",
+      "slug": "single-track-recording",
+      "price": "$175",
+      "ideal_for": "Singer-songwriters, indie artists, demos, podcasts",
+      "description": "Perfect for independent artists and songwriters who need professional piano on one track. You'll get a complete, fully-produced piano part that enhances your song without overwhelming it.",
+      "includes": [
+        "One complete piano part (up to 4 minutes)",
+        "Stereo WAV mix (24-bit/96kHz + 16-bit/44.1kHz)",
+        "MIDI file with velocity and expression data",
+        "2 rounds of revisions included",
+        "3-5 day standard delivery",
+        "Professional arrangement suggestions",
+        "Session notes and recommendations"
+      ],
+      "add_ons": [
+        "Rush 48-hour delivery: +$75",
+        "Same-day delivery: +$150 (subject to availability)",
+        "Additional revisions: +$50 each",
+        "Multiple instrument layers (piano + Rhodes): +$75",
+        "Chart/lead sheet creation: +$50"
+      ],
+      "turnaround": "3-5 business days standard"
+    },
+    {
+      "id": "professional-session",
+      "name": "Professional Session Package",
+      "slug": "professional-session-package",
+      "price": "$295",
+      "ideal_for": "Album projects, professional releases, film cues, serious productions",
+      "description": "The complete professional experience. This is what working with a seasoned session musician should be - collaborative, creative, and meticulously executed. Perfect for album tracks and film cues that need that extra level of polish.",
+      "includes": [
+        "Full creative arrangement and performance",
+        "Multi-mic stems (close mic, room mic, stereo mix)",
+        "MIDI file with complete velocity and CC data",
+        "Unlimited revisions until you're 100% satisfied",
+        "24-48 hour rush delivery available",
+        "Real-time virtual session option via video call",
+        "Chart or lead sheet creation included",
+        "Producer notes and mix suggestions",
+        "Alternative takes and variations"
+      ],
+      "add_ons": [
+        "Additional instrument (Hammond, accordion, vibraphone): +$100 each",
+        "String or horn arrangement mockup: +$150"
+      ],
+      "turnaround": "2-4 business days standard, 24-48 hours rush available"
+    },
+    {
+      "id": "album-package",
+      "name": "Full Album Package",
+      "slug": "album-recording-package",
+      "price": "$1,400 (10 tracks)",
+      "ideal_for": "Full albums, EPs, soundtrack albums, multi-song projects",
+      "description": "For artists creating a complete body of work. This package gives you dedicated attention across your entire album, with priority scheduling and discounted per-track pricing. I become part of your team, invested in the success of every song.",
+      "includes": [
+        "Up to 10 songs with full professional treatment",
+        "Priority scheduling - your sessions come first",
+        "Creative arrangement consultation for the full album",
+        "All stems + MIDI for every track",
+        "Mix notes and production suggestions throughout",
+        "15-20% discount vs. individual track pricing",
+        "Unlimited revisions across all tracks",
+        "Cohesive sonic approach across the album",
+        "Free rush delivery on up to 3 tracks"
+      ],
+      "pricing_breakdown": "$140 per track (vs. $175-$295 individual)",
+      "turnaround": "2-3 weeks for complete album, flexible scheduling"
+    },
+    {
+      "id": "film-soundtrack",
+      "name": "Film & Soundtrack Recording",
+      "slug": "film-soundtrack-recording",
+      "price": "$600-$2,000 per cue",
+      "ideal_for": "Films, documentaries, commercials, video games, trailer music",
+      "description": "Specialized service for scoring to picture. I understand narrative arc, emotional beats, and how music serves the story. From intimate character themes to sweeping orchestral accompaniment, I deliver piano that enhances your visual storytelling.",
+      "includes": [
+        "Custom composition or performance to picture",
+        "Score-locked to video with timecode",
+        "Multiple takes and stylistic variations",
+        "Full stems package for re-recording mixing",
+        "MIDI mockup + live performance recording",
+        "Direct collaboration with composer/director",
+        "Revisions throughout the spotting process",
+        "Alternate versions for different scenes",
+        "Quick turnaround for tight deadlines"
+      ],
+      "pricing_factors": [
+        "Under 2 minutes: $600-$800",
+        "2-4 minutes: $800-$1,200",
+        "4-6 minutes: $1,200-$1,600",
+        "Over 6 minutes or complex orchestral: $1,600-$2,000+",
+        "Rush delivery available"
+      ],
+      "turnaround": "Negotiable based on deadline - can accommodate tight schedules"
+    },
+    {
+      "id": "hourly-rate",
+      "name": "Hourly Studio Time",
+      "slug": "hourly-studio-time",
+      "price": "$125/hour",
+      "minimum": "2 hour minimum",
+      "ideal_for": "Complex arrangements, live collaboration, producers, creative exploration",
+      "description": "For projects that need flexibility and real-time collaboration. Work together via video call, directing the session as we record. Perfect for producers who want hands-on involvement or complex arrangements that need experimentation.",
+      "includes": [
+        "Real-time virtual session via video call",
+        "Live collaboration and direction throughout",
+        "Multiple instrument options available in session",
+        "Immediate playback and review after each take",
+        "All session recordings provided",
+        "Both MIDI and audio from the session",
+        "Can switch between instruments during session",
+        "Creative brainstorming included"
+      ],
+      "typical_use_cases": [
+        "Jazz improvisation and comping",
+        "Experimental/avant-garde projects",
+        "Producers who want real-time direction",
+        "Complex arrangements needing iteration",
+        "Multiple instrument layers in one session"
+      ],
+      "turnaround": "Delivered immediately after session or within 24 hours"
+    }
+  ],
+  "specialty_instruments": [
+    {
+      "id": "hammond-organ",
+      "name": "Hammond B3 Organ Recording",
+      "slug": "hammond-organ-recording",
+      "description": "The unmistakable sound of the Hammond B3 organ with Leslie speaker. From gospel grooves to jazz comping, rock power chords to soul ballads, the Hammond brings warmth, depth, and that inimitable swirl that only a real tonewheel organ can provide.",
+      "price": "Included in session packages, or $200 standalone track",
+      "ideal_genres": ["Gospel", "Jazz", "Rock", "Blues", "Soul", "Funk", "R&B"],
+      "sound_character": "Warm, thick, swirling. The Leslie speaker adds movement and dimension. Perfect for grooves, pads, and soulful chords.",
+      "famous_examples": ["Jimmy Smith", "Booker T. Jones", "Gregg Allman", "Jon Lord (Deep Purple)"],
+      "when_to_use": [
+        "When you need groove and pocket",
+        "Gospel and church music",
+        "Vintage soul and R&B vibes",
+        "Rock songs needing organ power",
+        "Jazz comping and soloing"
+      ]
+    },
+    {
+      "id": "accordion",
+      "name": "Accordion Recording",
+      "slug": "accordion-recording",
+      "description": "Professional piano accordion for folk, world music, tango, polka, French musette, and cinematic textures. Accordion brings unique emotional character - nostalgic, playful, dramatic, or ethereal depending on how it's played. Increasingly popular in indie and film music for its distinctive voice.",
+      "price": "Included in session packages, or $225 standalone track",
+      "ideal_genres": ["Folk", "World Music", "Tango", "Polka", "French Musette", "Klezmer", "Indie", "Film Scores", "Americana"],
+      "sound_character": "Breathy, expressive, nostalgic. Bellows dynamics add human breathing quality. Can be delicate or driving.",
+      "modern_uses": [
+        "Indie folk (Beirut, Arcade Fire, Neutral Milk Hotel)",
+        "Film scores (Amelie, The Godfather)",
+        "World music fusion",
+        "Nostalgic/vintage textures",
+        "Atmospheric pads and drones"
+      ],
+      "when_to_use": [
+        "Folk and world music authenticity",
+        "Cinematic European or Latin atmosphere",
+        "Nostalgic or vintage feeling",
+        "Unique texture in indie productions",
+        "Dance music (polka, tango, waltz)"
+      ]
+    },
+    {
+      "id": "vibraphone",
+      "name": "Vibraphone Recording",
+      "slug": "vibraphone-recording",
+      "description": "4-octave professional vibraphone with motor control for that signature shimmering, ethereal sound. The vibraphone occupies a unique sonic space - percussive but melodic, bright but warm, rhythmic but atmospheric. Perfect for jazz, film scores, ambient music, and dream pop textures.",
+      "price": "Included in session packages, or $250 standalone track",
+      "ideal_genres": ["Jazz", "Film Scores", "Ambient", "Dream Pop", "Experimental", "Lounge", "Latin Jazz"],
+      "sound_character": "Shimmering, bell-like, ethereal. Sustain and motor vibrato create dreamy, floating quality. Natural reverb from resonators.",
+      "famous_players": ["Gary Burton", "Milt Jackson", "Bobby Hutcherson", "Stefon Harris"],
+      "when_to_use": [
+        "Jazz ballads and medium tempos",
+        "Film underscore (tension, mystery, beauty)",
+        "Ambient and atmospheric textures",
+        "Dream pop shimmer (Cocteau Twins, Beach House)",
+        "Modern classical and experimental",
+        "Replacing glockenspiel with more depth"
+      ],
+      "mallet_options": [
+        "Hard mallets: Bright, articulate, percussive",
+        "Medium mallets: Balanced, all-purpose",
+        "Soft mallets: Warm, mellow, pad-like"
+      ],
+      "motor_settings": [
+        "Fast vibrato: Classic jazz sound",
+        "Slow vibrato: Dreamy, ethereal",
+        "Motor off: Pure, bell-like tone"
+      ]
+    }
+  ],
+  "genres_expertise": [
+    {
+      "genre": "Singer-Songwriter / Indie",
+      "slug": "singer-songwriter-piano-recording",
+      "description": "Intimate, supportive piano that enhances vocals without competing. I specialize in creating space, using dynamics and restraint to serve the song. Fingerpicking patterns, delicate arpeggios, and tasteful chord voicings that feel organic and emotional.",
+      "influences": ["Bon Iver", "Phoebe Bridgers", "Sufjan Stevens", "Iron & Wine", "Elliott Smith", "Fiona Apple"],
+      "experience": "50+ singer-songwriter albums and EPs recorded",
+      "approach": "Less is more. Every note serves the lyric and vocal. Focus on dynamics, space, and emotional resonance.",
+      "typical_arrangements": ["Sparse fingerpicking", "Gentle arpeggios", "Minimalist block chords", "Subtle melodic counterpoint"],
+      "price_range": "$175-$295 per track"
+    },
+    {
+      "genre": "Pop / Radio-Ready",
+      "slug": "pop-piano-recording",
+      "description": "Modern production piano: bright, present, and rhythmic. Layering acoustic piano with synths and electric piano for contemporary radio sound. Driving eighth-note patterns, rhythmic stabs, and ear-candy fills that make choruses pop.",
+      "influences": ["Coldplay", "OneRepublic", "The 1975", "Taylor Swift", "Billie Eilish", "Lewis Capaldi"],
+      "experience": "30+ pop albums, singles, and radio releases",
+      "approach": "Rhythm-first piano that locks with drums. Bright, compressed, and forward in the mix. Modern production techniques.",
+      "typical_arrangements": ["Rhythmic eighth-note patterns", "Synth + acoustic layering", "Melodic hooks and motifs", "Build dynamics into choruses"],
+      "price_range": "$175-$295 per track"
+    },
+    {
+      "genre": "Jazz / Standards",
+      "slug": "jazz-piano-recording",
+      "description": "Authentic jazz voicings, walking bass lines, comping, and improvisation. Both traditional and contemporary jazz styles. Understanding of form, swing feel, and the art of accompaniment. Can comp behind soloists or take featured piano solos.",
+      "influences": ["Bill Evans", "Brad Mehldau", "Robert Glasper", "Keith Jarrett", "Herbie Hancock", "Oscar Peterson"],
+      "experience": "20+ years performing and recording jazz professionally",
+      "approach": "Voice-led comping, interactive playing, authentic swing and feel. Can work from lead sheets or create arrangements.",
+      "typical_arrangements": ["Stride and walking bass", "Rootless voicings", "Bebop lines and improvisation", "Modal and contemporary harmony"],
+      "price_range": "$200-$295 per track, $125/hour for improvised sessions"
+    },
+    {
+      "genre": "Classical / Neoclassical",
+      "slug": "classical-piano-recording",
+      "description": "Conservatory-trained performance of composed parts or original arrangements in classical and neoclassical styles. From Baroque to Romantic repertoire, to contemporary minimalist and cinematic neoclassical.",
+      "influences": ["Max Richter", "Ludovico Einaudi", "Ólafur Arnalds", "Nils Frahm", "Chopin", "Debussy"],
+      "experience": "15+ years classical and neoclassical recording",
+      "approach": "Technically precise yet emotionally expressive. Understanding of classical form, phrasing, and dynamics.",
+      "typical_arrangements": ["Solo piano pieces", "Chamber music piano parts", "Minimalist repetitive patterns", "Romantic/expressive repertoire"],
+      "price_range": "$200-$295 per track"
+    },
+    {
+      "genre": "Film Scoring / Cinematic",
+      "slug": "film-score-piano-recording",
+      "description": "Emotional, story-driven piano for film, TV, and games. From intimate solo piano to epic orchestral accompaniment. Understanding of scoring to picture, emotional arc, and how music serves narrative. Experience with drama, comedy, thriller, and documentary scoring.",
+      "influences": ["Hans Zimmer", "Thomas Newman", "Alexandre Desplat", "John Williams", "Ennio Morricone"],
+      "experience": "15+ films scored or piano recorded for feature films and documentaries",
+      "approach": "Music serves the story. Understanding of spotting, themes, and emotional beats. Can work to locked picture or rough cuts.",
+      "typical_arrangements": ["Solo piano themes", "Piano + string textures", "Atmospheric underscoring", "Emotional character themes"],
+      "price_range": "$600-$2,000 per cue depending on length and complexity"
+    },
+    {
+      "genre": "Rock / Alternative",
+      "slug": "rock-keyboard-recording",
+      "description": "Driving, rhythmic piano and keyboard parts for rock and alternative music. From classic rock piano to modern indie rock textures. Rhodes, Wurlitzer, Hammond organ, and synth sounds. Locking with drums and bass to create powerful grooves.",
+      "influences": ["Radiohead", "Muse", "Arcade Fire", "The National", "The Killers", "Bruce Hornsby"],
+      "experience": "30+ rock and alternative albums",
+      "approach": "Energy and attitude. Piano as a rhythm section instrument. Not afraid to be aggressive and present in the mix.",
+      "typical_arrangements": ["Driving eighth-note rock piano", "Hammond organ power chords", "Rhodes and Wurlitzer textures", "Synth pads and leads"],
+      "price_range": "$175-$295 per track"
+    },
+    {
+      "genre": "Country / Americana",
+      "slug": "country-piano-recording",
+      "description": "Honky-tonk piano, barroom styles, and modern Nashville production techniques. From traditional country to contemporary Americana and roots music. Understanding of the Nashville sound and modern country radio production.",
+      "influences": ["Nashville session tradition", "Chris Stapleton", "Kacey Musgraves", "Jason Isbell"],
+      "experience": "10+ country and Americana projects",
+      "approach": "Tasteful and supportive. Country piano walks the line between traditional and modern. Groove is everything.",
+      "typical_arrangements": ["Honky-tonk stride patterns", "Tasteful fills and flourishes", "Modern country production", "Roots music authenticity"],
+      "price_range": "$175-$295 per track"
+    },
+    {
+      "genre": "R&B / Soul",
+      "slug": "rnb-soul-keys-recording",
+      "description": "Rhodes, Wurlitzer, B3 organ, and piano for R&B and soul music. Soulful chord progressions, groove-oriented playing, and understanding of the pocket. From classic Motown to modern neo-soul and alternative R&B.",
+      "influences": ["Anderson .Paak", "SZA", "Daniel Caesar", "D'Angelo", "Erykah Badu", "Robert Glasper"],
+      "experience": "20+ R&B and soul projects",
+      "approach": "Feel and groove above all. Locked with the rhythm section. Emphasis on Rhodes, Wurlitzer, and Hammond.",
+      "typical_arrangements": ["Rhodes chord stabs", "Wurlitzer comping", "Hammond B3 grooves", "Neo-soul chord progressions"],
+      "price_range": "$175-$295 per track"
+    }
+  ],
+  "competitive_advantages": {
+    "vs_soundbetter_marketplace": "No 15% platform fees. Direct relationship with the artist. Not competing with 1000 other pianists for attention. Personalized service.",
+    "vs_individual_competitors": "Broader genre experience (albums + film + jazz + classical). Rare specialty instruments (accordion, vibraphone). Complete pricing transparency. Faster turnaround. Modern, informative website.",
+    "vs_local_studios": "Convenience - no travel required. Lower cost - no studio overhead. Same professional quality. Flexible scheduling. Work at your own pace.",
+    "unique_instrument_combo": "Very few session musicians offer piano + Hammond + accordion + vibraphone. This combination makes you stand out significantly."
+  },
+  "pricing_transparency": {
+    "philosophy": "Clear, upfront pricing with no hidden fees. You know exactly what you're paying before you commit.",
+    "comparison": "Most competitors hide their prices and make you request quotes. We believe in transparency.",
+    "payment_methods": ["PayPal", "Venmo", "Zelle", "Credit Card via Stripe", "Wire Transfer"],
+    "deposit_policy": "50% deposit to book session, 50% upon delivery",
+    "refund_policy": "If you're not satisfied after first mix, full refund available before revisions begin"
+  }
+}
